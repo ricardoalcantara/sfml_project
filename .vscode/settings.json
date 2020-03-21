@@ -3,5 +3,12 @@
         "iostream": "cpp"
     },
     "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
-    "editor.detectIndentation": false
+    "files.watcherExclude": {
+        "**/external/**": true
+    },
+    "search.exclude": {
+        "**/external": true
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
 }
